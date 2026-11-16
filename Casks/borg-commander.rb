@@ -2,11 +2,11 @@ cask "borg-commander" do
   arch arm: "aarch64", intel: "x86_64"
   os macos: "apple-darwin", linux: "unknown-linux-musl"
 
-  version "0.11.1"
-  sha256 arm:          "17bf4aa715658b676ffafba4cb323485c3cc4c2e1b8ea75667126fb528493918",
-         intel:        "190bbe9f66fb04f36e60f876de829bb377bef21944727f89c2abfdeaa716f6b3",
-         arm64_linux:  "a8fb7b6c5bbe9eed4dacc2cb189d39d459cd76d592bcc15986599ce047a34b86",
-         x86_64_linux: "0888f2ae35ed334088a1c9d2b5efe750a1bc561f43d19365e7a00bd12e58fe86"
+  version "0.12.0"
+  sha256 arm:          "30b049a860b02cd301fb1e0cbb782d91d4e4aeb06877afab92ebc1bba98c4aa5",
+         intel:        "8ebe536c1920013f1b1c591410ec9613f36a241bf5b03401af278d7f990c2ac7",
+         arm64_linux:  "0937df1ffaf948e1eaee6087da8923ffab002de6b1ff15decee60082015a73e4",
+         x86_64_linux: "8b7dead6b79a43cca74c28c08306fbb7afaf602d385c1d4adb2be30b53e0686b"
 
   url "https://github.com/0xcd21h/borg-commander/releases/download/v#{version}/borg-#{version}-#{arch}-#{os}.tar.gz"
   name "Borg Commander"
